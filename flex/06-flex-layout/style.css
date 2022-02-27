@@ -7,6 +7,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+ul {
+  padding-left: 8px;
+}
+
 img {
   width: 600px;
 }
@@ -25,3 +29,26 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+a {
+  text-decoration: none;
+  color:rgb(94, 92, 92);
+  font-size: small;
+  padding: 5px;
+}
+
+.content {
+  align-items: center;
+}
+
+.header,.footer {
+  display:flex;
+  justify-content: space-between;
+  padding: 0px;
+  background-color: #eeeeee;
+}
+
+.left-links, .right-links{
+  display: flex;
+  list-style: none;
+  }
+
